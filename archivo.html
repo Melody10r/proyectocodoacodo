@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi proyecto</title>
+        <link rel="stylesheet" href="./css/diseño.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="barraNav">
+                <a href="">Quiero revender</a>
+                <a href="">Revista digital</a>
+                <a href="">¿Cómo comprar?</a>
+                <img width="10%" height="10%" src="images/logonatura.jpg" alt="natura">
+            </nav>
+        </header> <br> <br>
+
+        <div class="barraNav2">
+            <a href="">Inicio</a>
+            <a href="">Productos</a>
+            <a href="">Novedades</a>
+            <a href="">Contáctanos</a>
+        </div>
+
+        <section>
+            <nav class="botonEnlace">
+                <a href="https://www.naturacosmeticos.com.ar/revista-natura">Revista digital aquí</a>
+            </nav>
+        </section>
+
+        <main>
+            */imagenes/*
+        </main>
+
+        <form class="custom-form">
+            <h1>Completa este formulario de inscripción y nuestro equipo se pondrá en contacto con Ud. </h1> 
+            <p>(*Obligatorio)</p>
+            <fieldset> 
+                <legend>
+                    <label for="Formulario"> Registrate:</label>
+                </legend>
+                
+                <label for="nombre"> Nombre*</label> <br>
+                <input type="nombre" name="nombre" id="nombre" required=""> <br>
+                
+                <label for="apellido"> Apellido*</label> <br>
+                <input type="apellido" name="apellido" id="apellido" required=""> <br>
+                
+                <label for="telefono"> Teléfono de contacto* </label> <br>
+                <input type="number" name="telefono" id="telefono" > <br>
+                
+                <label for="email"> Correo Electrónico* </label><br>
+                <input type="email" name="email" id="email" required=""><br><br>
+                
+                <label for="horario">Seleccione horario de disponibilidad: </label> <br>
+                <select name="horario llamada">
+                    <option value="1">Mañana: 09:00h/12:00h</option>
+                    <option value="2">Tarde: 13:00h/16:00h</option>
+                </select><br><br>
+                
+                <label for="comentarios"> Comentarios: </label> <br>
+                <textarea name="area" id="area" cols="30" rows="10"></textarea><br>
+                
+                <input type="submit">  
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+
+        <footer>
+            <p>©Natura Cosmetics</p>
+        </footer>
+
+    </body>
+</html>
