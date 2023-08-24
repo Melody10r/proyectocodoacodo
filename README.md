@@ -8,3 +8,5 @@
 22/08 mejora de las barras de la página, cree el readme.
 
 23/08 mejora de el formulario, el pie de página, agregué fotos y hago la página responsive.
+
+24/04 continuo con media query.
